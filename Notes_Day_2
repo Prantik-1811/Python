@@ -1,1 +1,32 @@
+ Strings
 
+ A string is a series of characters. Anything inside quotes is considered 
+a string in Python, and you can use single or double quotes around your 
+strings like this: 
+"This is a string."
+ 'This is also a string.'
+
+This flexibility allows you to use quotes and apostrophes within your 
+strings
+
+'I told my friend, "Python is my favorite language!"'
+ "The language 'Python' is named after Monty Python, not the snake."
+ "One of Python's strengths is its diverse and supportive community."
+
+Changing Case in a String with Method
+
+name = "ada lovelace"
+ print(name.title())
+ Save this file as name.py, and then run it. You should see this output:
+ Ada Lovelace
+
+A method is an action that Python can perform on a piece of data. The dot 
+(.) after name in name.title() tells Python to make the title() method act on 
+the variable name
+
+That informa
+tion is provided inside the parentheses. The title() function doesn’t need 
+any additional information, so its parentheses are empty. 
+The title() method changes each word to title case, where each word 
+begins with a capital letter. This is useful because you’ll often want to think 
+of a name as a piece of information.

@@ -5,3 +5,17 @@ bits of Python code without having to save and run an entire program
 
 Example:   >>> print("Hello Python interpreter!") 
 Hello Python interpreter!
+
+>>> prompt indicates that you should be using the terminal (Powershell also works if u have an added path during installation of Python)
+window, and the bold text is the code you should type in and then execute by 
+pressing enter
+
+Extra:  About the Sublime Text Editor
+Sublime Text is a simple text editor that can be installed on all modern 
+operating systems. Sublime Text lets you run almost all of your programs 
+directly from the editor instead of through a terminal. Your code runs in 
+a terminal session embedded in the Sublime Text window, which makes it 
+easy to see the output
+
+
+**WHILE INSTALLATION CLICKING ADD TO PATH IS NECESSARY**

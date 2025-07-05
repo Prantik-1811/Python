@@ -19,3 +19,56 @@ easy to see the output
 
 
 **WHILE INSTALLATION CLICKING ADD TO PATH IS NECESSARY**
+
+Troubleshooting
+ If you can’t get hello_world.py to run, here are a few remedies you can try 
+that are also good general solutions for any programming problem:
+ •	When a program contains a significant error, Python displays a trace
+back, which is an error report. Python looks through the file and tries to 
+identify the problem. Check the traceback; it might give you a clue as to 
+what issue is preventing the program from running.
+ •	Step away from your computer, take a short break, and then try again. 
+Remember that syntax is very important in programming, so even a 
+missing colon, a mismatched quotation mark, or mismatched parenthe
+ses can prevent a program from running properly. Reread the relevant 
+parts of this chapter, look over your code, and try to find the mistake.
+ •	Start over again. You probably don’t need to uninstall any software, but 
+it might make sense to delete your hello_world.py file and re-create it 
+from scratch.
+
+
+RUNNING DIRECTLY FROM TERMINAL
+
+You can use the terminal command cd, for change directory, to navigate 
+through your filesystem in a command window. The command dir, for 
+directory, shows you all the files that exist in the current directory. 
+Open a new terminal window and enter the following commands to 
+run hello_world.py:
+  C:\> cd Desktop\python_work
+  C:\Desktop\python_work> dir
+ hello_world.py
+  C:\Desktop\python_work> python hello_world.py
+ Hello Python world
+
+At  you use the cd command to navigate to the python_work folder, 
+which is in the Desktop folder. Next, you use the dir command to make sure 
+hello_world.py is in this folder . Then you run the file using the command 
+python hello_world.py . 
+Most of your programs will run fine directly from your editor. But as 
+your work becomes more complex, you’ll want to run some of your pro
+grams from a terminal.
+
+
+LOGIC BEHING THE EXECUTION
+
+When you run the file hello_world.py, the ending .py indicates that 
+the file is a Python program. Your editor then runs the file through the 
+Python interpreter, which reads through the program and determines what 
+each word in the program means
+
+ As you write your programs, your editor highlights different parts of 
+your program in different ways. For example, it recognizes that print() is 
+the name of a function and displays that word in one color. It recognizes 
+that "Hello Python world!" is not Python code and displays that phrase in a 
+different color. This feature is called syntax highlighting and is quite useful as 
+you start to write your own programs

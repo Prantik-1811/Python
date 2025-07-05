@@ -1,0 +1,7 @@
+Python Notes (Beginner and Basic Stuff)
+
+You can run Python’s interpreter in a terminal window, allowing you to try 
+bits of Python code without having to save and run an entire program
+
+Example:   >>> print("Hello Python interpreter!") 
+Hello Python interpreter!
